@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="    Salah satu permainan yang bermuatan local wisdom di kalangan anak pedesaan adalah permainan kelereng. Bermain kelereng merupakan permainan yang melibatkan 2 anak atau lebih sehingga anak dilatih bekerja sama dan berkomunikasi dengan baik. Kelereng adalah bola kecil seukuran kerikil yang biasanya terbuat dari kaca atau marmer. Beberapa wilayah Indonesia, seperti Betawi menyebut kelereng dengan nama gundu. Istilah kelereng oleh orang Jawa menyebutnya neker/dir-diran. Wilayah Sunda menyebut kelereng dengan istilah  kaleci, dalam bahasa Palembang disebut ekar dan Banjar disebut dengan istilah kleker. Dahulu kala, kelereng dibuat dengan tanah liat. Namun saat ini kelereng dibuat dari kaca ataupun marmer. Ukuran diameternya berkisar kurang lebih 1,5 cm"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

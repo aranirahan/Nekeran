@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Teorema Impuls dan Momentum"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Animasi anak bermain nekeran dengan teknik nylentik (neker dijepit diantara jari tengah dan jempol, terus disentil dengan jari tengah, istilahnya nylenthik."
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/impuls"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Saat jari tangan menyentuhkan gaya sebesar F terhadap neker, maka neker yang awalnya dalam keadaan diam (v1 = 0 m/s2) maka neker akan bergerak dengan  kecepatan berubah menjadi arah kiri (-)."
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Sesuai Hukum II Newton "
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/imr"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Impuls = perubahan momentum"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingBottom="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="F   = gaya (N)"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="M  = massa benda (kg)"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="v₁  = kecepatan awal benda (m/s)"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="v₂  = kecepatan akhir benda (m/s)"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="I    = impuls (N s)"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:paddingBottom="16dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

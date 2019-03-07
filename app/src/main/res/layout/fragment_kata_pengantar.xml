@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="  Puji syukur penulis panjatkan kepada Tuhan Yang Maha Esa yang telah memberikan rahmat serta hidayahNya sehingga Buku Elektronik(E-Book) Fisika Berbasis Local Wisdom dengan menghubungkan materi Momentum dan Impuls dapat terselesaikan. E-Book ini diperuntukkan guru dan siswa jenjang kelas X. E-Book ini bertujuan untuk membantu siswa dalam memahami konsep-konsep momentum dan impuls. Selain itu E-Book ini bertujuan agar siswa lebih menghargai dan melestarikan kebudayaan dan kearifan lokal di daerah masing-masing."
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text=" E-book ini mengupas mengenai materi-materi momentum dan impuls yang dihubungkan dengan kearifan lokal berupa permainan tradisional. E-book ini dilengkapi dengan penjelasan kearifan lokal mengenai permainan tradisional yang ada di Jawa Tengah, materi momentum dan impuls, rangkuman, contoh soal dan glosarium. Penulis berusaha menyusun e-book ini sesuai dengan kebutuhan siswa dan guru yang ada di lapangan sehingga memudahkan siswa untuk dapat belajar mandiri juga di rumah."
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="   Akhirnya, penulis mengucapkan terima kasih kepada semua pihak yang telah membantu dalam menyelesaikan e-book ini. Semoga e-book ini dapat bermanfaat bagi guru dan siswa dalam mengelola proses pembelajaran terutama materi impuls dan momentum. Penulis dengan segala kerendahan hati mengharapkan saran dan kritik yang bersifat membangun dari semua pihak. Semoga e-book ini dapat memberikan manfaat bagi pembelajaran fisika."
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Yogyakarta, Januari 2018"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_gravity="end"
+            android:text="Penyusun"
+            android:layout_marginEnd="16dp"
+            android:paddingBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

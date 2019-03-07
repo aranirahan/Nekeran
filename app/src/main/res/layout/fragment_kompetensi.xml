@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:text="KOMPTENSI INTI"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:text="KI 1"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="Menghayati dan mengamalkan  ajaran agama yang dianutnya."
+            android:layout_height="wrap_content"/>
+
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:text="KI 2"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="Menunjukkan perilaku jujur, disiplin, tanggung-jawab, peduli (gotong royong, kerjasama, toleran, damai), santun, responsif dan pro-aktif dan menunjukkan sikap sebagai bagian dari solusi atas berbagai permasalahan dalam berinteraksi secara efektif dengan lingkungan sosial dan alam serta dalam menempatkan diri sebagai cerminan bangsa dalam pergaulan dunia."
+            android:layout_height="wrap_content"/>
+
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:text="KI 3"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="Memahami, menerapkan, dan menganalisis pengetahuan faktual, konseptual, prosedural, dan metakognitif berdasarkan rasa ingin tahunya tentang ilmu pengetahuan, teknologi, seni, budaya, dan humaniora dengan wawasan kemanusiaan,  kebangsaan, kenegaraan, dan peradaban terkait penyebab fenomena dan kejadian, serta menerapkan pengetahuan prosedural pada bidang kajian yang spesifik sesuai dengan bakat dan minat-nya untuk memecahkan masalah"
+            android:layout_height="wrap_content"/>
+
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:text="KI 4"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="Mengolah, menalar, dan menyaji dalam ranah konkrit dan ranah abstrak terkait dengan pengembangan dari yang dipelajarinya di sekolah secara mandiri, bertindak secara efektif dan kreatif, serta mampu menggunakan metode sesuai kaidah keilmuan."
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:text="KOMPTENSI DASAR"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:text="2.1"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="Menunjukkan perilaku ilmiah (memiliki rasa ingin tahu; objektif; jujur; teliti; cermat; tekun; hati-hati; bertanggung jawab; terbuka; kritis; kreatif; inovatif; dan peduli lingkungan) dalam aktivitas sehari-hari sebagai wujud implementasi sikap dalam melakukan percobaan, melaporkan, dan berdiskusi."
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:text="3.10"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:text="Menerapkan konsep konsep momentum dan impuls serta hukum kekekalan momentum dalam kehidupan sehari-hari"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:text="4.10"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:paddingBottom="16dp"
+            android:text="Menyajikan hasil pengujian penerapan hukum kekekalan momentum"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Materi 1"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Momentum"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Animasi gerak neker 1 dan neker 2 menumbuk neker 3."
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/momentum"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Simulasi 1"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Neker 1 dan neker 2 massa nya sama-sama 18 gram."
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="#f44336"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Kecepatan neker 1 =10 m/s(ket. v arah positif)."
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Kecepatan neker 2 =12 m/s (ket.v arah positif)."
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Lalu yang mendorong neker 3 lebih jauh adalah neker 2."
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Simulasi 2"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Neker 1 dan neker 2 kecepatannya sama-sama 8 m/s (ket.v arah ke kanan jadi positif)"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:textColor="#f44336"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Massa neker 1 adalah 20 gram sedangkan neker 2 adalah 15 gram"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Lalu yang mendorong neker 3 lebih jauh adalah neker 1"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Lalu yang mendorong neker 3 lebih jauh adalah neker 2."
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f44336"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Dari video simulasi 1,  neker 2 mendorong lebih jauh neker 3 akibat neker 2 sulit dihentikan sedangkan video simulasi 2, neker 1 lebih jauh mendorong neker 3 akibat neker 1 sulit dihentikan."
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Dari penjelasan melalui video tersebut, ukuran tingkat kesukaran untuk menghentikan benda ketika bergerak disebut momentum. Semakin besar momentum suatu benda, semakin sulit untuk dihentikan. Momentum dipengaruhi oleh besaran massa dan kecepatan. "
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Dari peristiwa tersebut, persamaan momentum adalah :"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_border"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="p = m v"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="dengan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="p = momentum benda (kg m/s)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="m = massa benda (kg)"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="v = kecepatan benda (m/s)"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

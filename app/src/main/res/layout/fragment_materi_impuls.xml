@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Materi 2"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Impuls"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Animasi saat anak menggunakan teknik nyladang pada neker lalu diberi keterangan ada gaya kontak antara jari dengan neker pada selang waktu tertentu"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/impuls"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Pada jari dan kelereng : neker dapat bergerak karena mendapatkan gaya dorong F terhadap neker. Interaksi terjadi antara jari dan neker."
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Menurut hukum III Newton, jari tangan akan merasakan gaya reaksi terhadap neker sehingga jari tangan merasa sakit saat menyentil neker"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Saat jari tangan menyentuhkan gaya sebesar F terhadap neker, maka  yang awalnya dalam keadaan diam maka akan bergerak dengan kecepatan v ke arah kiri (-)."
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Hasil kali gaya impulsif rata-rata (F) dan selang waktu singkat (∆t) selama gaya impulsif bekerja disebut besaran impuls dan diberi lambang I."
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_border"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="I = F ∆t = F (t₂ - t₁)"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Keterangan :"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text=" I = Impuls (N.s)"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="F = Gaya (N)"/>
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="∆t = selang waktu"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

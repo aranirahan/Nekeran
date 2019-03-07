@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LKPD 1"
+            android:gravity="center"
+            android:background="@drawable/bg_border"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORIENTASI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perhatikan video berikut ini!
+Video 1, mobil dengan massa sama dan video 2 mobil dengan kecepatan sama"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGIDENTIFIKASI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perhatikanlah gambar beberapa mobil di bawah ini"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:src="@drawable/lkpd1g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perhatikanlah gambar beberapa mobil di bawah ini"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dalam selang waktu tertentu
+
+Mobil Lamborghini bergerak dengan kecepatan 80 m/s dengan massa 2M
+
+Mobil ferrari bergerak dengan kecepatan 100 m/s dengan massa M
+
+Mobil zenvo bergerak dengan kecepatan 90 m/s dengan massa ¼ M
+
+Mobil Toyota bergerak dengan kecepatan 70 m/s dengan massa ½ M
+
+Jika gesekan roda dan jalan nilainya sama. Mobil manakah yang paling sulit dihentikan?
+
+Alasan : .................................................................................................................................."
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MELAKUKAN PENYELIDIKAN"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menyelidiki hubungan massa, kecepatan dan momentum benda"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIMULASI"
+            android:textColor="@color/red500"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Massa neker sama = 18 gram"
+            android:textColor="@color/red500"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kecepatan (m/s)"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Momentum (Muncul perhitungan momentum)"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kecepatan neker sama = 12,5 m/s"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="massa (gram)"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Momentum (kg m/s) (Muncul perhitungan momentum)"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGEVALUASI SOLUSI DARI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berdasarkan literatur, definisi momentum adalah ukuran tingkat kesukaran untuk menghentikan benda ketika bergerak."
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berdasarkan percobaan 1 dan percobaan 2, diperoleh hubungan besaran-besaran berikut :"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pada keadaan kecepatan (v)  tetap, semakin besar massa maka momentumnya semakin ......"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pada keadaan massa (m) tetap, semakin besar kecepatan maka momentumnya semakin ........."
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maka,  besaran momentum dipengaruhi oleh besaran.......... dan ..........."
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Yaitu  nilai momentum akan semakin besar jika nilai ............. dan ........... semakin besar nilai momentum akan semakin kecil jika nilai ........... dan ............. semakin kecil"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

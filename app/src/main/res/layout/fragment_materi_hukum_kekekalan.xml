@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_border"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Materi 3"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Hukum Kekekalan Momentum"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Pada sistem yang terisolasi, total momentum selalu tetap. Konsep demikian dikenal dengan hukum kekekalan momentum. Perhatikan video dua neker berikut ini untuk memahami konsepnya"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Animasi dua neker saling bergerak dari arah berlawanan dengan massa yang sama setelah masing” disentlik oleh masing” pemain"
+            android:layout_margin="16dp"
+            android:textColor="@color/red500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/materi3"
+            android:layout_gravity="center"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Neker 1 dan neker 2 keduanya identik bergerak dalam arah yang berlawanan dan segaris sehingga terjadi tumbukan antara kedua kelereng. Analisis gerak kedua neker tersebut berdasarkan tinjauan momentumnya dapat diuraikan sebagai berikut "
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Kecepatan kedua neker sebelum tumbukan adalah  v₁ dan v₂, maka momentum total sistem sebelum terjadi tumbukan adalah m₁v₁ + m₂v₂. Sesudah terjadi tumbukan, kecepatan neker berubah menjadi v₁' dan v₂'. Karena massa benda tidak berubah, momentum total sistem sesudah terjadi tumbukan adalah m₁v₁' + m₂v₂'"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Total momentum sistem selalu tetap, maka momentum sistem sebelum dan sesudah terjadi tumbukan adalah sama. Oleh karena itu pada sistem di atas dapat dirumuskan persamaan sebagai berikut "
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Hasil kali gaya impulsif rata-rata (F) dan selang waktu singkat (∆t) selama gaya impulsif bekerja disebut besaran impuls dan diberi lambang I."
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_border"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/materi3rumus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"/>
+            <ImageView
+                android:src="@drawable/m3rumus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

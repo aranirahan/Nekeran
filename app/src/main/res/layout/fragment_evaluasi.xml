@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:paddingBottom="32dp"
+        android:layout_height="wrap_content">
+        <com.codesgood.views.JustifiedTextView
+            android:text="AYO BERLATIH"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bg_border"
+            android:padding="8dp"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="1. Suatu mobil bermassa 3500 kg bergerak ke arah timur dengan kecepatan 54 km/jam. Tentukan besar dan arah momentum mobil tersebut!"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="2. Seseorang melempar bola kasti yang bermassa 40 gram dengan kecepatan bola 20 m/s. Kemudian bola tersebut terpental setelah mengenai pemukul kasti dengan kecepatan sama secara tegak lurus. Tentukan perubahan momentum dan impuls bola kasti tersebut!"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="3. Sebuah bola bergerak ke kanan dengan kecepatan 10 m/s. Kemudian bola tersebut dipukul oleh tongkat sehingga terpental berlawanan arah dari keadaan semula dengan kecepatan 15 m/s. Lama waktu kontak bola dengan tongkat dalam waktu 2 detik. Berapakah gaya impulsif yang diberikan tongkat pada bola tersebut jika bola tersebut bermassa 50 gram?"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="4. Bola pertama bergerak ke barat dengan kecepatan 30 m/s menuju bola kedua yang sedang bergerak ke timur dengan kecepatan 25 m/s. Apabila bola pertama bermassa 1 kg sedangkan bola kedua bermassa 1,5 kg. Tentukan besar kecepatan bola"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="a. setelah terjadi tumbukan tidak lenting."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="b. Setelah terjadi tumbukan lenting sempurna"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="5. Ilustrasikan kejadian pada nomor 4 tersebut ke dalam gambar saat sebelum tumbukan dan sesudah tumbukan!"
+            android:layout_width="match_parent"
+            android:paddingBottom="16dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</ScrollView>

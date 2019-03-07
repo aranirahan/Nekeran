@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:paddingBottom="32dp"
+        android:layout_height="wrap_content">
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Impuls :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Perubahan momentum"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Koefisien restitusi :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Tingkat kelentingan suatu tumbukan yang dapat dinyatakan dengan nilai"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Momentum :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Ukuran tingkat kesulitan menghentikan benda bergerak"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Nekeran :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Istilah permainan kelereng dalam bahasa Jawa"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Njethot :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Neker dijepit dengan jari telunjuk dan disentil dengan jempol"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Nyladang :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Teknik menggunakan dua buah tangan, jari telunjuk dan jempol tangan kiri menjepit neker lalu disentil dengan jari tengah tangan kanan"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Nylentik :"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Neker dijepit di antara jari temgah dan jempol lalu disentil dengan jari tengah"
+            android:layout_width="match_parent"
+            android:paddingBottom="16dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</ScrollView>

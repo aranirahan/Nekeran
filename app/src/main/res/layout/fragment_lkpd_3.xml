@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LKPD 3"
+            android:gravity="center"
+            android:background="@drawable/bg_border"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORIENTASI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <ImageView
+            android:src="@drawable/lkpd3g1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seorang anak sedang bermain bola bekel. Perhatikanlah keadaan bola saat dilempar dan kembali lagi jatuh ke lantai. Apakah yang terjadi? Bagaimana keadaan ketinggian saat bola dilempar dan memantul? (sama atau tidak)? Perubahan energi apakah yang terjadi saat bola dilempar dan memantul ke atas? Apakah yang dapat menyebabkan hal tersebut terjadi?"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGIDENTIFIKASI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dari peristiwa di atas, apa sajakah yang dapat mempengaruhi koefisien restitusi?"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENDEFINISIKAN MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:src="@drawable/lkpd3g2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perhatikan gambar di atas? Bagaimana keadaan ketinggian pantulan bola bekel dalam beberapa pantulan?"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MELAKUKAN PENYELIDIKAN"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menyelidiki hubungan ketinggian awal, ketinggian pantulan dan koefisien restitusi"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berikut alat-alat yang tersedia untuk melakukan eksperimen, cobalah buat langkah kerja untuk melakukan eksperimen!"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Bola pingpong , 1 bola bekel, 1 kelereng dan alat pengukur panjang (rolmeter)"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGINTERPRETASI DATA KE DALAM TABEL"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+        <ImageView
+            android:src="@drawable/lkpd3g3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGEVALUASI SOLUSI DARI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berdasarkan penyelidikan yang telah dilakukan, berikanlah kesimpulan!"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai koefisien dipengaruhi oleh ............"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Semakin tinggi pantulan, maka nilai koefisien restitusi semakin .........."
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

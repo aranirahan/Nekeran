@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LKPD 2"
+            android:gravity="center"
+            android:background="@drawable/bg_border"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORIENTASI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animasi neker berkecepatan 10 m/s bergerak ke kiri lalu memantul ke kanan dengan kecepatan 12,5 m/s setelah terkena tembok"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGIDENTIFIKASI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apakah yang terjadi pada kedua neker tersebut?"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perubahan apa yang dialami neker tersebut?"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MELAKUKAN PENYELIDIKAN"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Membuktikan hukum kekekalan momentum pada tumbukan sentral"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:src="@drawable/lkpd2g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Membuktikan hukum kekekalan momentum pada tumbukan sentral"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LANGKAH KERJA"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Siapkan dua bola m1 dan m2 (m2 diberikan plastisin), kemudian ukurlah massa benda dengan neraca.
+
+2. Ikatlah masing-masing bola (m1 dan m2) dengan benang yang memiliki panjang yang sama, satukan kedua ujung benang, kemudian ikatkan kedua ujung benang pada statif.
+
+3. Simpangkan bola m1 setinggi h1 (ukur dengan mistar), kemudian lepaskan m1 sehingga menumbuk m2 secara sentral dan menempel. Bersamaan dengan ini, siapkan mistar untuk mengukur tinggi h’ setelah terjadi tumbukan.
+
+4. Ulangi langkah ke-4 dengan nilai h1 yang berbeda"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:src="@drawable/lkpd2g2"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <ImageView
+            android:src="@drawable/lkpd2g3"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGINTERPRETASI DATA KE DALAM TABEL"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+        <ImageView
+            android:src="@drawable/lkpd2g4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MENGEVALUASI SOLUSI DARI MASALAH"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berdasarkan hasil penyelidikan,bandingkan nilai P awal dengan P akhir"
+            android:layout_marginTop="16dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hukum kekekalan momentum (Terbukti/ Tidak Terbukti)"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

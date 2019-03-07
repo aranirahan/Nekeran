@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content">
+        <com.codesgood.views.JustifiedTextView
+            android:text="Contoh Soal"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/bg_border"
+            android:padding="8dp"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="1. Pada  permainan  nekeran,  neker  bermassa  200  gram  disentlik  ke  depan  dengan kecepatan 10 m/s. Sesaat setelah disentlik dan bersentuhan dengan neker lain selama 0,1 sekon neker berbalik arah dengan kecepatan 20 m/s. Tentukan:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="a.   Impuls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="b.   Gaya rata-rata yang diberikan neker lain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Jawab :"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="1. Pada  permainan  nekeran,  neker  bermassa  200  gram  disentlik  ke  depan  dengan kecepatan 10 m/s. Sesaat setelah disentlik dan bersentuhan dengan neker lain selama 0,1 sekon neker berbalik arah dengan kecepatan 20 m/s. Tentukan:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="1. Pada  permainan  nekeran,  neker  bermassa  200  gram  disentlik  ke  depan  dengan kecepatan 10 m/s. Sesaat setelah disentlik dan bersentuhan dengan neker lain selama 0,1 sekon neker berbalik arah dengan kecepatan 20 m/s. Tentukan:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="1. Pada  permainan  nekeran,  neker  bermassa  200  gram  disentlik  ke  depan  dengan kecepatan 10 m/s. Sesaat setelah disentlik dan bersentuhan dengan neker lain selama 0,1 sekon neker berbalik arah dengan kecepatan 20 m/s. Tentukan:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Memahami masalah"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Diketahui : m= 200 gram = 0,2 kg"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="v₁= 10 m/s"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="v₂= 20 m/s"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Ditanya : a. Impuls, b. Gaya rata-rata"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="a. Solusi yang digunakan (Persamaan yang digunakan) :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Impuls = perubahan momentum"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Penyelesaian solusi : "
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="I = m(v2-v1)"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="  = 0,2 (-20-10)"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="  = 0,20(-30)"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="  = - 60 kg m/s"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Pengevaluasian solusi :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="jadi, impuls yang bekerja pada neker tersebut adalah -60 kgm/s"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="b. Solusi yang digunakan (Persamaan yang digunakan) :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="I= F Δt"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Penyelesaian solusi : "
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/rangkumang1"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="F = -600 N (tanda (-) menunjukkan bahwa arah gaya yang diberikan berlawanan dengan arah kecepatan neker mula-mula)"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Pengevaluasian solusi :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Jadi, gaya rata-rata yang diberikan sebesar 600 N dengan arah yang berlawanan saat neker bergerak mula-mula"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="32dp"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="2. Sebuah neker A massa 600 gram dalam keadaan diam, ditumbuk oleh neker B yang bermassa 400 gram bergerak dengan laju 10 m/s. Setelah tumbukan kelajuan neker B menjadi 5 m/s dengan arah sama dengan arah semula. Tentukan kelajuan neker A sesaat ditumbuk neker B."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Memahami masalah"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/rangkumang2x"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="a. Solusi yang digunakan (Persamaan yang digunakan) :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/rangkumang3"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Penyelesaian solusi : "
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/rangkumang4"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Pengevaluasian solusi :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Jadi, kelajuan neker A setelah terjadi tumbukan adalah 3,33 m/s."
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="b. Solusi yang digunakan (Persamaan yang digunakan) :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="I= F Δt"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Penyelesaian solusi : "
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@drawable/rangkumang1"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="F = -600 N (tanda (-) menunjukkan bahwa arah gaya yang diberikan berlawanan dengan arah kecepatan neker mula-mula)"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:text="Pengevaluasian solusi :"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.codesgood.views.JustifiedTextView
+            android:text="Jadi, gaya rata-rata yang diberikan sebesar 600 N dengan arah yang berlawanan saat neker bergerak mula-mula"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

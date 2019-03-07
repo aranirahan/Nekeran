@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nekeran</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="kata_pengantar">Kata Pengantar</string>
+    <string name="sejarah_nekeran">Sejarah Nekeran</string>
+    <string name="petunjuk_penggunaan">Petunjuk penggunaan</string>
+    <string name="kompetensi">Kompetensi</string>
+    <string name="peta_konsep">Peta Konsep</string>
+    <string name="materi">Materi</string>
+    <string name="lkpd">LKPD</string>
+    <string name="evaluasi">Evaluasi</string>
+    <string name="daftar_pustaka">Daftar Pustaka</string>
+    <string name="glosarium">Glosarium</string>
+    <string name="profile">Profil</string>
+    <string name="rangkuman">Rangkuman</string>
+    <string name="contoh_soal">Contoh Soal</string>
+    <string name="pada_tumbukan_lenting_sebagian_beberapa_energi_kinetik_akan_diubah_menjadi_energi_bentuk_lain_seperti_panas_bunyi_dan_sebagainya_akibatnya_energi_kinetik_sebelum_tumbukan_lebih_besar_daripada_energi_kinetik_sesudah_tumbukan_koefisien_restitusi_e_adalah_0_e_1_berlaku_hukum_kekekalan_momentum"><![CDATA[Pada tumbukan lenting sebagian, beberapa energi kinetik akan diubah menjadi energi bentuk lain seperti panas, bunyi, dan sebagainya. Akibatnya, energi kinetik sebelum tumbukan lebih besar daripada energi kinetik sesudah tumbukan. koefisien restitusi (e) adalah: 0 < e < 1. Berlaku Hukum Kekekalan Momentum]]></string>
+</resources>

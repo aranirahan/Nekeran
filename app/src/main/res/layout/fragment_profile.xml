@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_girl"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:scrollbars="none"
+                android:background="@drawable/bg_border"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Pengembang :"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Yeni Ristya Wardani, S.Pd"
+                        android:gravity="center"
+                        android:layout_marginBottom="16dp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Pembimbing :"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Prof. Dr.Mundilarto, M.Pd"
+                        android:layout_marginBottom="16dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Judul :"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="E-BOOK FISIKA BERBASIS LOCAL WISDOM NEKERAN"
+                        android:layout_marginBottom="16dp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Rilis :"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="15 Maret 2019"
+                        android:layout_marginBottom="16dp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Versi :"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="v.1.0.0"
+                        android:layout_marginBottom="16dp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
