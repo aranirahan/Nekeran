@@ -120,7 +120,7 @@ class NekeranActivity : AppCompatActivity() {
             .commit()
 
         tv_title.text = getString(titleId)
-        tv_page.text = currentPage.toString()
+        tv_page.text = (currentPage + 1).toString()
     }
 
     companion object {
